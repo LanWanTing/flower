@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1000">
+<meta name="keywords" content="芊芳,芊芳花藝,花店,高雄花店,花藝設計">
+<meta name="description" content="TINA LAN PROFILE">
+<title>關於芊芳 About us│芊芳花藝Cian-Fang Flower</title>
+<link href="favicon.ico" rel="icon">
+<link href="favicon.ico" rel="shortcut icon">
+<link href="apple-touch-icon.png" rel="apple-touch-icon">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.vegas.css" rel="stylesheet">
+<script src="js/plugins/jQuery/jquery-1.8.3.js"></script>
+<script src="js/plugins/jQuery/jquery.vegas-1.3.4.js"></script>
+<script src="js/common.js"></script>
+<script>
+jQuery(document).ready(function(e) {
+  // Menu    
+	jQuery('.iMenu li.menuLi').hover(function(e) {
+		var $cEle = jQuery(this);
+		$cEle.find('li.menuLi a.link').addClass('');    
+		$cEle.children('div.navSub').stop(false, true).fadeIn(300);
+	}, function(e) {
+		var $cEle = jQuery(this);
+		$cEle.find('li.menuLi a.link').removeClass('');  
+		$cEle.children('div.navSub').stop(false, true).fadeOut(300);  
+	});
+});
+</script>
+<script>
+jQuery(document).ready(function(e) {
+	$.vegas('slideshow', {
+		delay:5000,
+		valign:'bottom',
+		backgrounds:[
+			{ src:'images/pbanner/pbk5.jpg', fade:500 }
+		]
+	})('overlay');
+});
+</script>
+</head>
+
+<body>
+<!--頁首-->
+<header id="Header">
+	<div class="iLogo"><a href="index.html" title="芊芳花藝"><img src="images/logo.png" alt="芊芳花藝" width="215" height="80"></a></div>
+    <div class="iMenu">
+    	<ul class="menuUl">
+        	<li class="menuLi"><a href="about.html" title="關於芊芳" class="mLink m1"></a></li>
+            <li class="menuLi"><a href="product.html" title="精品花藝"  class="mLink m2"></a>
+            	<div class="navSub">
+                	<ul class="navUl">
+                    	<li class="navLi"><a href="product.html" title="新娘捧花" class="nLink">新娘捧花</a></li>
+                        <li class="navLi"><a href="product.html" title="藝術盆花" class="nLink">藝術盆花</a></li>
+                        <li class="navLi"><a href="product.html" title="蘭花盆栽" class="nLink">蘭花盆栽</a></li> 
+                        <li class="navLi"><a href="product.html" title="會場佈置" class="nLink">會場佈置</a></li>    
+                        <li class="navLi"><a href="product.html" title="高架藝術花籃" class="nLink">高架藝術花籃</a></li>                 
+                    </ul>
+                </div>
+            </li>
+            <li class="menuLi"><a href="news.html" title="最新消息"  class="mLink m3"></a></li>
+            <li class="menuLi"><a href="order.html" title="訂購方式"  class="mLink m4"></a></li>
+            <li class="menuLi"><a href="contact.html" title="聯絡我們"  class="mLink m5"></a></li>
+        </ul>
+    </div>
+</header>
+
+<!--內容-->
+<div id="pWrap">
+	<div class="pNavBox"><a href="news.html" title="最新消息">最新消息</a></div>
+    <div id="pMain">
+    	<div class="pTitleBox">最新消息<span>News</span></div>
+        
+        <div class="pNewsBox">
+        	<ul>
+            	<li><a href="news_view.html" title="芊芳花藝網站正式營運">芊芳花藝網站正式營運</a></li>
+                <li><a href="news_view.html" title="聖誕節花束特價九折！">聖誕節花束特價九折</a></li>
+                <li><a href="news_view.html" title="畢業季即將來臨，憑學生證購買花束加贈小熊娃娃！">畢業季即將來臨，憑學生證購買花束加贈小熊娃娃</a></li>
+                <li><a href="news_view.html" title="新年盆花預約活動開跑！">新年盆花預約活動開跑！</a></li>
+                <li><a href="news_view.html" title="聖誕節花束特價九折！">聖誕節花束特價九折</a></li>
+                <li><a href="news_view.html" title="畢業季即將來臨，憑學生證購買花束加贈小熊娃娃！">畢業季即將來臨，憑學生證購買花束加贈小熊娃娃</a></li>
+                <li><a href="news_view.html" title="新年盆花預約活動開跑！">新年盆花預約活動開跑！</a></li>
+                <li><a href="news_view.html" title="聖誕節花束特價九折！">聖誕節花束特價九折</a></li>
+                <li><a href="news_view.html" title="畢業季即將來臨，憑學生證購買花束加贈小熊娃娃！">畢業季即將來臨，憑學生證購買花束加贈小熊娃娃</a></li>
+                <li><a href="news_view.html" title="聖誕節花束特價九折！">聖誕節花束特價九折！</a></li>
+            </ul>
+            <a href="#" title="NEXT"><div class="btnnext"></div></a>
+        </div>
+        
+    </div>
+</div>
+
+<!--頁尾-->
+<footer id="ifooter">
+Copyright&nbsp;&nbsp;&copy;&nbsp;&nbsp;芊芳花藝.&nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design By TINA LAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</footer>
+    
+</body>
+</html>

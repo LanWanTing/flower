@@ -1,0 +1,231 @@
+﻿@charset "utf-8";
+/* 
+ * CSS Document 
+ * $Web: Bumper Shopping Store$
+ * $Author: Tina Lam $
+ * $Date: 2014-12-22(一)$
+ */
+
+img { border: 0;}
+body{ margin:0; padding:0;}
+
+/*頁首*/
+#Header{ margin:0; padding:0; width:100%; height:116px; overflow:hidden; min-width:1100px; background:url(../images/mbk1.png) repeat-x;}
+.iLogo{ margin:15px 0 0 20px; padding:0; width:215px; height:80px; overflow:hidden; float:left;}
+.iMenu{ margin-left:80px; padding:0; width:650px; height:116px; overflow:hidden; float:left;}
+.iMenu ul.menuUl{ float: left; padding: 0; margin: 0; list-style: none;}
+.iMenu ul.menuUl li.menuLi { padding: 0; margin: 0; height: 116px; width:130px; overflow:hidden; float:left;}
+.iMenu ul.menuUl li.menuLi a.mLink { width:130px; height:116px; display:block; overflow:hidden;}
+.iMenu ul.menuUl li.menuLi a.m1 {background:url(../images/m1.png);}
+.iMenu ul.menuUl li.menuLi a.m2 {background:url(../images/m2.png);}
+.iMenu ul.menuUl li.menuLi a.m3 {background:url(../images/m3.png);}
+.iMenu ul.menuUl li.menuLi a.m4 {background:url(../images/m4.png);}
+.iMenu ul.menuUl li.menuLi a.m5{background:url(../images/m5.png);}
+.iMenu ul.menuUl li.menuLi a:hover{ background-position:0 116px;}
+.iMenu .navSub { display:none; position: absolute; z-index: 10; top: 116px; left: 0; width: 100%; min-width: 1100px; padding:0; background: url(../images/nbk.png) repeat top; line-height: 45px; font-size: 15px; color: #fff; text-decoration:none; overflow:hidden}
+#nav2 { padding-left:802px;}
+.iMenu .navSub ul.navUl { padding: 0; margin: 0; list-style: none; padding-left:315px;}
+.iMenu .navSub ul.navUl li.navLi { height:45px; float:left; padding-left:25px; font-family:"微軟正黑體", Arial;}
+.iMenu .navSub ul.navUl li.navLi a.nLink { text-decoration:none; font-size: 15px; color: #fff; font-family:"微軟正黑體", Arial;}
+.iMenu .navSub ul.navUl li.navLi a.nLink:hover { text-decoration:none; font-size: 15px; color: #000; font-weight:bold; font-family:"微軟正黑體", Arial;}
+.showBk{ margin:0; padding:0; width:100%; height:50px; overflow:hidden; min-width:1100px; background:url(../images/mbk2.png) repeat-x;}
+
+/*首頁形象圖*/
+.vegas-loading{ background: url(../images/loading.gif) no-repeat center center; /* Loading Gif by http://preloaders.net/ */}
+
+/*頁尾*/
+footer{ font-family:"微軟正黑體", "Arial"; font-size:12px; color:#FFF; line-height:39px; overflow: hidden; min-width: 1100px; text-align: right; margin: 0; padding: 0; width: 100%; height: 39px; bottom: 0;}
+#ifooter{  position: fixed; z-index:8; /*background: url(../images/fbk.png) repeat-x;*/}
+#pFooter{  position: absolute;}
+footer a{ color:#FFF; font-family:"微軟正黑體", "Arial"; font-size:12px; text-decoration:none;}
+footer a:hover{ color:#bbb;}
+
+	
+/*內頁共同設定*/
+#pWrap{ margin:0; padding:0; width:100%; overflow:hidden; min-width:1100px; background:url(../images/pbk.png) repeat-x top;}
+.pNavBox{ margin:0; padding:0; padding-left:60px; float:left; color:#FFF; line-height:45px; width:100%; height:45px; overflow:hidden; font-family:"微軟正黑體", Arial, Gadget, sans-serif; font-size:15px; min-width:1100x; text-align:left; z-index: 11;}
+.pNavBox a{ color:#FFF; line-height:45px; font-family:"微軟正黑體", Arial, Gadget, sans-serif; font-size:14px; text-decoration:none;}
+.pNavBox a:hover{ color: #dadada; line-height:45px; font-family:"微軟正黑體", Arial, Gadget, sans-serif; font-size:14px;}
+#pMain{ width:100%; margin:0; padding:0; overflow:hidden; float:left;}
+.pTitleBox{ height:25px; margin:70px 0 0 60px; padding:0; float:left; font-family:"微軟正黑體", Arial, Gadget, sans-serif; font-size:25px; color:#3e1837; letter-spacing:2pt; font-weight:bold; line-height:25px;}
+.pTitleBox span{ font-family: "Times New Roman", Times, serif; font-size:18px; color:#3e1837; line-height:25px; letter-spacing:0px; margin-left:5px;}
+
+/*About Us頁面*/
+.pAboutBox{ height:400px; margin:160px 0 70px; padding:0; position:absolute; left:66px; font-family:"微軟正黑體", Arial, Gadget, sans-serif; font-size:14px; color:#3e1837; letter-spacing:1pt; line-height:25px; overflow:hidden;}
+
+/*Product_View頁面*/
+.pProductsBox, .pNewsViewBox, .pContactBox, .pOrderWarp{ width:950px; height:490px; margin:0 auto; margin-top:155px; margin-bottom:80px; padding:10px; background:url(../images/alphabk.png) repeat; position:relative;}
+/* 大小圖 */
+#bigPicBox { position: relative; display: block; width: 350px; height: 490px; float: left; margin-left:10px;}
+#bigPicBox img{ position: absolute;}
+
+#smallPic { float: left; position: relative; width: 80px; height: 460px; overflow: hidden; padding:20px 0 10px;}
+#smallPic ul { margin: 0; padding: 0; list-style: none;}
+#smallPic ul li { margin:0; margin-bottom:6px; padding:0; width: 75px;  overflow:hidden;}
+#smallPic ul li a { display: block; width: 75px; height: 105px; overflow: hidden;}
+#smallPic ul img { cursor: pointer;}
+#smallPic .btnNext,#smallPic .btnPrev { display: block; position: absolute; left: 0; width: 80px; height: 11px; overflow: hidden; background: url(../images/btn_prev.gif)  center no-repeat; cursor: pointer; text-indent: -999px;}
+#smallPic .btnPrev{ top: 0;}
+#smallPic .btnNext { bottom: 0; background: url(../images/btn_next.gif) center no-repeat;}
+/* 圖片放大 */
+.cloud-zoom { display: block; width: 350px; height: 490px;}
+.cloud-zoom-lens { cursor: url(../images/zoom.ico),auto; background: url(../images/sidebar_bg.png);}
+.cloud-zoom-gallery {  width: 35px; overflow: hidden;}
+.cloud-zoom-big { width: 245px; height: 490px; overflow: hidden;}
+.cloud-zoom-loading { padding: 3px; color: #fff; background: #222;}
+
+/*info*/
+.infoBox{ width:480px; height:490; overflow:hidden; float:left; margin-left:10px; position: relative;}
+.infoTitle{ height:30px; font-size:25px; line-height:30px; margin:25px 0 15px 20px; padding:0; overflow:hidden; font-family:"微軟正黑體", Arial; color:#60235a; letter-spacing:2px; font-weight:bold;}
+.infoTitle span{ font-size:15px; line-height:30px; letter-spacing:0px; margin-left:5px;}
+
+.infoBox table{ width:470; margin:20px 0px 20px 20px; border: 0; border-spacing: 0; border-collapse: collapse; overflow:hidden;}
+.infoBox table tr{ font-size: 13px; color:#222; line-height:23px; font-family:"微軟正黑體", Arial; border-bottom: 1px solid #e8e3eb;}
+.infoBox table th{ width: 15%; vertical-align: top; text-align:right; padding:10px 0;}
+.infoBox table th span{ border-right:1px solid #8957a1; padding-right:10px;}
+.infoBox table td{ width: 85%; vertical-align: top; text-align:left; padding:10px 0 10px 10px; }
+.backBox{ width:90px; height:20px; line-height:20px; font-family:"微軟正黑體", Arial; font-size:13px; background-color:#60235a; text-align:center; padding:2px; color:#fff; position:absolute; bottom:10px; right:10px;}
+.backBox a{ font-family:"微軟正黑體", Arial; font-size:13px; color:#fff; text-decoration:none;}
+.backBox:hover{ background-color:#782c71;}
+
+
+/*Product_List頁面*/
+#pGoodsWrap{ margin: 0 auto; position: relative; width: 100%; min-width: 1100px; overflow: hidden;}
+#pGoodsBox { margin: 0 auto;  width: 100%; padding:130px 0 50px 35px; min-width: 1100px; position: relative;}
+a.picItemBox { width: 289px; height:440px;  overflow: hidden;  display: block; margin: 20px 20px;; padding:4px; text-decoration:none}
+a.picItemBox .pic{ width: 289px; height: 405px; overflow: hidden; position: relative; border:solid #d6d6d6 1px;}
+a.picItemBox .pic .picImg{ width: 289px; height: 405px; top: 0px; left: 0; z-index: 1; position: absolute; }
+a.picItemBox:hover { background: url(../images/pcover.png) repeat;}
+a.picItemBox .gltitle{text-align: center; overflow: hidden; margin-top:5px; line-height: 25px; color: #60235a; text-decoration:none; font-family:"微軟正黑體", Arial; font-weight:bold;}
+a.picItemBox:hover .gltitle{color: #fff; text-decoration:none; font-family:"微軟正黑體", Arial;}
+a.picItemBox:hover .pic{ border:solid #d6d6d6 0px;}
+
+/*News頁面*/
+.pNewsBox{ height:400px; width:400px; margin:140px 0 0; padding:0; position:absolute; left:66px;}
+.pNewsBox ul{ margin: 0; padding: 0; list-style: none;}
+.pNewsBox ul li{ font-family:"微軟正黑體", Arial; font-size:14px; color:#333; line-height:38px; overflow:hidden; height:38px; background: url(../images/newlist.png) 5px center no-repeat; border-bottom:1px solid #c1b1ca; padding-left:30px; padding-right:10px; white-space: pre-line;}
+.pNewsBox ul li a{font-family:"微軟正黑體", Arial; font-size:14px; color:#333; line-height:38px; text-decoration:none;}
+.pNewsBox ul li a:hover{color:#7a4496;}
+.pNewsBox .btnnext,.pNewsBox .btnprev{ width:20px; height:20px; background:url(../images/btnnext.png) #83437d; float:right; margin-top:10px; cursor:pointer;}
+.pNewsBox .btnprev{ background:url(../images/btnprev.png) #83437d;}
+.pNewsBox .btnnext:hover,.pNewsBox .btnprev:hover{ background:url(../images/btnnext.png) #60235a;}
+
+/*News_view頁面*/
+.pNewsViewBox{ width:950px; height:auto; padding:5px 0 0 0; margin-bottom:30px;}
+.pNewsViewBox .title{ width:920px; height:40px; margin:15px; margin-bottom:0; overflow:hidden; padding:0; border-bottom: 1px solid #e8e3eb;}
+.pNewsViewBox .title table{ width:920px; height:25px; border:0; border-collapse: collapse; overflow:hidden;}
+.pNewsViewBox .title table tr{ font-size: 16px; color:#60235a; line-height:23px; font-family:"微軟正黑體", Arial;}
+.pNewsViewBox .title table th{ width: 80%; vertical-align: middle; text-align:left; padding:10px 0;}
+.pNewsViewBox .title table td{ width: 20%; vertical-align: middle; text-align:right; padding:10px 0;}
+.pNewsViewBox .main{ width:920px; margin:15px; overflow:hidden; padding:10px 0 3px; font-size: 13px; color:#60235a; line-height:20px; font-family:"微軟正黑體", Arial; border-bottom: 1px solid #e8e3eb;}
+.pNewsViewBox .main a{ font-size: 13px; color:#8258a6; line-height:20px; font-family:"微軟正黑體", Arial; text-decoration:none; z-index:3;}
+.pNewsViewBox .main a:hover{ font-size: 13px; color:#60235a; line-height:20px; font-family:"微軟正黑體", Arial; text-decoration:none;}
+.pNewsViewBox .space{ width:920px; height:30px; margin:10px; padding:0}
+.pNewsViewBox .backBox{ width:90px; height:20px; line-height:20px; font-family:"微軟正黑體", Arial; font-size:13px; background-color:#60235a; text-align:center; padding:2px; color:#fff; position:absolute; bottom:10px; right:15px;}
+.pNewsViewBox .backBox a{ font-family:"微軟正黑體", Arial; font-size:13px; color:#fff; text-decoration:none;}
+.pNewsViewBox .backBox:hover{ background-color:#782c71;}
+
+/*Contact頁面*/
+.pContactBox .left {width:460px; height:470;  overflow:hidden; float:left;}
+.pContactBox .left .title{width:400px; height:40px; overflow:hidden; padding:5px; padding-left:0; margin-left:20px; border-bottom: 1.5px solid #60235a; line-height:20px; font-family:"微軟正黑體", Arial; font-size:20px; letter-spacing:1px; color:#222; margin-top:10px;}
+.pContactBox .left .title span{font-size:12px; letter-spacing:0px; color:#5f5f5f;}
+.pContactBox .left .main{ width:380px; height:200px; overflow:hidden; padding:20px 0; margin-left:20px;}
+.pContactBox .left .main table{ width:350px; height:200px; border:0; border-collapse: collapse; overflow:hidden;}
+.pContactBox .left .main table tr{ line-height:23px; font-family:"微軟正黑體", Arial; font-size:14px; letter-spacing:0px;}
+.pContactBox .left .main table th{ width: 22%; vertical-align: top; text-align:left; padding:5px 0; color:#522053;font-weight: normal}
+.pContactBox .left .main table th span{ border-right:1px solid #8957a1; padding-right:10px;}
+.pContactBox .left.main table td{ width: 78%; vertical-align: top; text-align:left; padding:5px 0 5px 0px; color:#222;}
+.pContactBox .left .map{ width:375px; height:170px; margin-left:20px;margin-top:10px; border:#c8b0c1 1px solid;}
+
+.pContactBox .right{ width:460px; height:470px; overflow:hidden; float:right; margin-right:10px; position:absolute; top:20px; right:20px;letter-spacing:1px;}
+.pContactBox .right .title{ height:50px; overflow:hidden; padding:0; border-bottom: 1.5px solid #60235a; line-height:25px; font-family:"微軟正黑體", Arial; font-size:20px;s color:#222;}
+.pContactBox .right .title span{font-size:14px; letter-spacing:0px; color:#5f5f5f; padding-left:5px;}
+.pContactBox .right .info{ height:20px; overflow:hidden; line-height:20px; font-family:"微軟正黑體", Arial; font-size:13px;s color:#222;}
+.pContactBox .consulbox{ margin:0; padding:0;}
+.pContactBox .formCont { font-size: 14px; margin: 20px 0;border:0; border-collapse: collapse; overflow:hidden; font-family:"微軟正黑體", Arial;}
+.pContactBox .formCont th { padding: 10px; font-weight: normal; color: #60235a; vertical-align: top; text-align:right; line-height:25px;}
+.pContactBox .formCont th span { color: #60235a; padding-right:5px;}
+.pContactBox .formCont td { padding: 10px;}
+.w340 { width: 340px;}
+.w330 { width: 330px;}
+.inputxt { height: 25px; border: 1px solid #d9c8d7; background-color: #fff;}
+.input { padding: 5px; background-color: #fff; border: 1px solid #d9c8d7;}
+
+.btnReset, .btnSubmi { display: block; margin: 10px 0 0 15px; width: 78px; height: 29px; float: right; text-indent: -9999px; border: 0; background: url(../images/btn_form.png) no-repeat 0 0; overflow: hidden; cursor: pointer;}
+.btnReset { background-position: 0 0;}
+.btnSubmi { background-position: -94px 0;}
+.btnReset:hover { background-position: 0 -29px;}
+.btnSubmi:hover { background-position: -94px -29px;}
+
+/*order頁面*/
+.pOrderWarp{ height:auto; padding:10px; background:0; margin-bottom:130px;}
+div.pQuestion {background:url(../images/alphabk.png) repeat; cursor: pointer; padding:10px; width: 970px; overflow:hidden; margin:5px 0 0; color:#60235a; font-size:15px; line-height:25px; font-family:"微軟正黑體"; font-weight:bold; padding-left:20px;}
+div.pAnswer {background:url(../images/ocover.png) repeat; display: none; padding: 20px 10px 20px 40px; width: 950px; overflow:hidden; color:#222; margin-top:5px; font-size:14px; line-height:28px; font-family:"微軟正黑體";}
+
+
+
+/* 寬度1200px-1920px時 */
+@media screen and (min-width: 1200px) and (max-width: 1920px){
+.pTitleBox{margin:70px 0 0 105px;}
+.pNavBox{ padding-left:105px;}
+.pAboutBox{left:105px;}
+.pNewsBox{ left:105px;}
+#pGoodsWrap{ margin: 0 auto; position: relative; width: 100%; min-width: 1100px; overflow: hidden;}
+#pGoodsBox { padding-left:85px;}
+}
+
+
+
+/*
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+	#pGoodsBox { margin: 0 auto;  width: 100%; padding-top:130px; padding-left:105px; }
+	.picItem { width: 15%; background: url(../images/alphabk.png) repeat; margin-bottom:40px;}
+	.picItem .box { margin:10px;}
+	.picItem img { width: 100%; height: auto;}
+}
+@media only screen and (min-width: 1101px) and (max-width: 1599px) {
+	#pGoodsBox { margin: 0 auto; position: relative; width: 100%; min-width: 1000px; padding-top:130px; padding-left:105px;}
+	.picItem { width: 18%; margin-bottom:40px; background: url(../images/alphabk.png) repeat;}
+	.picItem .box { margin:10px;}
+	.picItem img { width: 100%; height: auto;}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+	#pGoodsBox { margin: 0 auto; position: relative; width: 100%; min-width: 1000px; padding-top:130px; padding-left:66px;}
+	.picItem { width: 250px; margin-bottom:40px; background: url(../images/alphabk.png) repeat;}
+	.picItem .box { margin:10px;}
+	.picItem img { width: 100%; height: auto;}
+}
+@media only screen and (max-width: 999px) {
+	#pGoodsBox{ margin: 0 auto; position: relative; width: 100%; padding-top:130px; padding-left:66px;}
+	.picItem { width: 250; margin-bottom:10px; background: url(../images/alphabk.png) repeat;}
+	.picItem .box { margin:10px;}
+	.picItem img { width: 100%; height: auto;}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
